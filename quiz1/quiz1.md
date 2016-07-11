@@ -25,7 +25,7 @@ A hash has both a key and a value. Each value is accessible with it's correspond
 ```ruby
 test = {
   :name => "Deb",
-  :age => 21",
+  :age => 21,
   :food => "fries",
 }
 ```
@@ -73,10 +73,11 @@ This will return true.
 (false && true) || (true) = false || true = true
 
 
-# 9. binding.pry is used when debugging. It acts as a breakpoint and halts the program where the "binding.pry" statement is placed.
+# 9. 
+binding.pry is used when debugging. It acts as a breakpoint and halts the program where the "binding.pry" statement is placed.
 
 
-# 10
+# 10.
 ```ruby
 var = 5
 return var >= 5 ? "var is greater than or equal to 5" : "var is less than 5"
