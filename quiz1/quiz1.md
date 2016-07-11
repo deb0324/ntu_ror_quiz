@@ -24,9 +24,9 @@ arr = [0, 1, "a", ["hi", "there"]]
 A hash has both a key and a value. Each value is accessible with it's corresponding key.
 ```ruby
 test = {
-  :name => "Deb"
-  :age => 21"
-  :food => "fries"
+  :name => "Deb",
+  :age => 21",
+  :food => "fries",
 }
 ```
 
@@ -51,7 +51,7 @@ This returns a new array by removing any duplicated values.
 [1, 2, 3, 3].uniq!
 # => [1, 2, 3]
 ```
-This return the changed array after removing any duplicates or returns nil if no duplicates are found.
+This returns the changed array after removing any duplicates or returns nil if no duplicates are found.
 
 # 7. 
 method 1
@@ -61,7 +61,7 @@ arr.shuffle!
 ```
 method 2
 ```ruby
-rand(1..20)
+rand(5..9)
 ```
 
 
@@ -70,10 +70,10 @@ rand(1..20)
 ((1 > 3)&&(true == true))||(!!!false)
 ```
 This will return true. 
-(false && true) || (true) = false || true = false
+(false && true) || (true) = false || true = true
 
 
-9. binding.pry is used when debugging. It acts as a breakpoint and halts the program where the "binding.pry" statement is placed.
+# 9. binding.pry is used when debugging. It acts as a breakpoint and halts the program where the "binding.pry" statement is placed.
 
 
 # 10
@@ -87,15 +87,15 @@ return var >= 5 ? "var is greater than or equal to 5" : "var is less than 5"
 ```ruby
 #method one
 arr1 = {
-  :name => "Bob"
-  :age => 30
+  :name => "Bob",
+  :age => 30,
   :pet => "cat"
 }
 
 #method two
 arr2 = {
-  name: "Bob"
-  age: 30
+  name: "Bob",
+  age: 30,
   pet: "cat"
 }
 ```
