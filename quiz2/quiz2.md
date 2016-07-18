@@ -32,7 +32,7 @@ george.hobby
 A class variable belongs to a class (@@var). It can be directly accessed from the class. An instance variable is attached only to the instance of the class (@var) and can only be access through the instance.
 
 ```ruby
-Class Testing
+class Testing
   attr_accessor :name
 
   @@number_of_tests = 0  #class variable
